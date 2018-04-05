@@ -44,9 +44,9 @@ set :unicorn_start_cmd, "(cd #{deploy_to}/current; rvm use #{rvm_ruby_string} do
 
 # описания наших задачек для загрузки данных в базу и рестартов unicorn сервера
 namespace :deploy do
-
-  namespace :assets do
 /*
+  namespace :assets do
+
     task :precompile, :roles => :web do
       from = source.next_revision(current_revision)
       if capture("cd #{latest_release} && #{source.local.log(from)} vendor/assets/ lib/assets/ app/assets/ | wc -l").to_i > 0
