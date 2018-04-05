@@ -39,8 +39,8 @@ end
 # gem 'unicorn'
 group :production do
   gem 'unicorn' 
-  gem 'therubyracer'
-  gem 'execjs'
+#  gem 'therubyracer'
+#  gem 'execjs'
 end
 
 # Use Capistrano for deployment
