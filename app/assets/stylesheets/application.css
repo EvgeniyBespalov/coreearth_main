@@ -12,7 +12,7 @@
  *= require_tree .
  */
 body {
-  background: url('/assets/1920_1080_008_1024x768_earth.jpg') no-repeat center center fixed;
+  background: url('/assets/1920_1080_008_1024_768_earth.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
