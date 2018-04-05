@@ -38,7 +38,9 @@ end
 # Use unicorn as the app server
 # gem 'unicorn'
 group :production do
-  gem 'unicorn'
+  gem 'unicorn' 
+  gem 'therubyracer'
+  gem 'execjs'
 end
 
 # Use Capistrano for deployment
