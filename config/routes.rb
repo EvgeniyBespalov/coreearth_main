@@ -1,5 +1,7 @@
 CoreearthMain::Application.routes.draw do
   get "welcome/index"
+  get "welcome/ajax_method_from_link_to"
+  get "welcome/ajax_method_from_js"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
