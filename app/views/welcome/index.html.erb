@@ -1,5 +1,5 @@
 <!--<input value="Старт" type="button" id="btnStart" onclick="sendAjaxRequest(this.id)">-->
 <input value="Старт" type="button" id="btnStart" onclick="sendAjaxRequest(this.id, this.value)">
 <%= link_to "Вызвать AJAX метод", welcome_ajax_method_from_link_to_path(data: welcome_ajax_method_from_link_to_path), remote: true, class: "ajax_method" %>
-<h1 style='color:green;'>Image down=</h1>
+<h1 style='color:green;'>Image down+</h1>
 <%= image_tag '/assets/1920_1080_008_1024_768_earth.jpg'%>
