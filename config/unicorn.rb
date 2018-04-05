@@ -1,6 +1,6 @@
 ENV['RAILS_ENV'] = 'production'
 
-ENV['RAILS_SERVE_STATIC_FILES'] = true
+#ENV['RAILS_SERVE_STATIC_FILES'] = true
 
 worker_processes 1  # количество воркер процессов, я люблю делать их по кол-ву ядер например
 preload_app true
