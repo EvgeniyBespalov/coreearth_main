@@ -46,7 +46,7 @@ set :unicorn_start_cmd, "(cd #{deploy_to}/current; rvm use #{rvm_ruby_string} do
 namespace :deploy do
 
   namespace :assets do
-
+/*
     task :precompile, :roles => :web do
       from = source.next_revision(current_revision)
       if capture("cd #{latest_release} && #{source.local.log(from)} vendor/assets/ lib/assets/ app/assets/ | wc -l").to_i > 0
@@ -68,7 +68,7 @@ namespace :deploy do
             ln -s #{shared_path}/assets #{latest_release}/public/assets")
     end
   end
-
+*/
 
 
 
