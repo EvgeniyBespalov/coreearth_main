@@ -1,4 +1,5 @@
 CoreearthMain::Application.routes.draw do
+  get "repository/index"
   get "welcome/index"
   get "welcome/ajax_method_from_link_to"
   get "welcome/ajax_method_from_js"
